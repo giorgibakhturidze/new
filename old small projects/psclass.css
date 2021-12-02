@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+
+    
+}
+body{
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(135deg, #7d7d7d 25%, transparent 25%), linear-gradient(225deg, #7d7d7d 25%, transparent 25%), linear-gradient(45deg, #7d7d7d 25%, transparent 25%), linear-gradient(315deg, #7d7d7d 25%, #e5e5f7 25%);
+    background-position:  8px 0, 8px 0, 0 0, 0 0;
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    opacity: 0.9;
+    font-family: sans-serif;
+
+}
+.main{
+    border:1px solid black ;
+    width: 1100px;
+    height: 800px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    display: flex;
+    
+}
+.first{
+    width: 60%;
+    background-image: url(https://images.unsplash.com/photo-1551582045-6ec9c11d8697?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3JTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.first svg{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    transform: rotate(30deg)
+
+}
+.second{
+    padding-left: 50px;
+    
+}
+.bolden{
+    font-size: 50px;
+    display: inline-block;
+    padding-top: 80px;
+    
+    
+}
+#op{
+    color: gray;
+    margin-right: 12px;
+}
+.second p{
+    color: rgb(53, 52, 52);
+    font-size: 30px;
+    max-width: 60%;
+    padding-top: 50px;
+}
+input{
+    display: block;
+    padding-top: 20px;
+    padding-right: 150px;
+    margin-top: 35px;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgb(9, 9, 10);
+    font-size: 30px;
+}
+
+
+.main_input{
+    position: absolute;
+    
+}
+
+
+.main_input input + span{
+    position: relative;
+    bottom: 28px;
+    font-size: 25px;
+    pointer-events: none;
+    transition: all 0.4s;
+
+}
+
+
+.main_input input:focus + span,
+.main_input input:valid + span{
+    bottom: 88px;
+    font-size: 20px;
+    color: cornflowerblue;
+    transition: all 0.3 ease;
+
+
+}
+
+
+
+.second a{
+    position: absolute;
+    display: inline-block;
+    direction: none;
+    margin-top: 390px;
+    margin-left: 310px;
+    font-size: 25px;
+    color: grey;
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+.second a:hover{
+    cursor: pointer;
+    color: rgb(59, 24, 156);
+    transition: 1s;
+    
+}
+.second button{
+    position: absolute;
+    background-color: rgb(19, 73, 109);
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(29, 27, 27);
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    margin: 240px 0 0 400px;
+    transition:ease-out 0.3s ;
+    
+
+}
+.second button:hover{
+    box-shadow: inset -150px 50px 0 0 blueviolet;
+    cursor: pointer;
+    color: white;
+
+}
+

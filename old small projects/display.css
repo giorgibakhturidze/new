@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    color: white;
+    display: flex;
+    background-image: url(https://i.pinimg.com/originals/08/36/48/0836483abf1f3a6081988c06255b75e3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 20px;
+    
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+#the_logo{
+    margin: 40px 70px;
+    font-size: 40px;
+}
+#middle_content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+#middle_content h1{
+    font-size: 70px;
+}
+#middle_content p{
+    margin: 20px 0;
+}
+
+#middle_content button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(27, 24, 216);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+#mtavari{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+}
+.w-100{
+    width: 100%;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+}
+
+.w-30{
+    width: 30%;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.w-70{
+    width: 70%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.color1{
+
+    height: 250px;
+    background-color: blue;
+}

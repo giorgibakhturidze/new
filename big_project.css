@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+
+.nav{
+    position: relative;
+    height: 1300px;
+    display: flex;
+    background-image: url(https://wallpaperaccess.com/full/1932754.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.navigation{
+    color: white;
+}
+.navigation h1{
+    padding: 55px 0px 0px 80px;
+}
+.nav_list{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
+.nav_list li{
+    position: relative;
+    left: 100%;
+    display: inline-flex;
+    padding: 10px;
+    top: -40px;
+    justify-content: flex-end;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+    
+    
+}
+.nav_list li a::after{
+    content: "";
+    position: absolute;
+    background-color:rgb(41, 117, 240);
+    height: 4px;
+    width: 0%;
+    left: 0;
+    bottom: 30px;
+    transition: 0.3s;
+}
+.nav_list li a:hover{
+    color: rgb(247, 144, 27);
+}
+.nav_list li a:hover::after{
+    width: 100%;
+    
+}
+
+#get_started{
+    position: relative;
+    margin-left: auto;
+    top: -60px;
+
+}
+    
+#get_started button{
+    position: relative;
+    padding: 20px 30px;
+    color: white;
+    background: none;
+    border: 1px solid rgb(41, 117, 240);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.6s;
+    box-shadow: inset 0 0 0 0 rgb(41, 117, 240);
+    
+    
+}
+#get_started button:hover{
+    box-shadow: inset 153px 0 0 0 rgb(41, 117, 240);
+
+}
+.under_nav_list{
+    position: relative;
+    display:block;
+    top: 600px;
+    color: white;
+    left: -300px;
+    font-family: sans-serif;
+    
+    
+}
+.under_nav_list h1{
+    font-size: 70px;
+    padding-bottom: 40px;
+    max-width: 450px;
+    
+
+}
+.under_nav_list p{
+    font-size: 20px;
+    max-width: 500px;
+    padding-bottom: 20px;
+}
+.under_nav_list button{
+    position: relative;
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: 1px solid yellow;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.6s;
+    box-shadow: inset 154px 0 0 0 yellow;
+    
+}
+.under_nav_list button:hover{
+    color: white;
+    box-shadow: inset 154px 0 0 0 rgb(41, 117, 240);
+    border: 1px solid rgb(41, 117, 240);
+}
+.after_nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    top: 90px;
+}
+.after_nav .icons i{
+    position: relative;
+    font-size: 55px;
+    color: rgb(41, 86, 233);
+    left: 100px;
+    
+}
+.after_nav .icons p{
+    max-width: 300px;
+    padding-top:10px;
+}
+
+.our_course{
+    position: relative;
+    background-color: gray;
+    height: 1300px;
+    width: 100%;
+    top: 350px;
+}
+.our_course .inside_our_course1{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+.our_course .inside_our_course2{
+    position: relative;
+    border: 1px solid gray;
+    background-color: white;
+    height: 70%;
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    top: 15%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    
+}
+  
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column img{
+    width: 100%;
+    height: 100%;
+}
+.our_course .inside_our_course2 .text1{
+    display: table;
+    width: 100%;
+    table-layout: fixed;    
+
+}
+.our_course .inside_our_course2 .text1 div{
+    
+    display: table-cell;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 15px;
+
+}
+.our_course .inside_our_course2 .text2{
+    display: table;
+    width: 100%;
+    table-layout: fixed;    
+
+}
+.our_course .inside_our_course2 .text2 div{
+    
+    display: table-cell;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.schedule{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top:350px;
+    background-color: rgb(211, 208, 208);
+}
+.inside_our_schedule1{
+    display: inline-flexbox;
+    text-align: center;
+    position: relative;
+    margin: 3% auto auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.inside_our_schedule1 h1{
+    font-size: 40px;
+    padding-bottom: 18px;
+}
+.inside_our_schedule2{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    top: 20%;
+    left: 26%;
+    background-color: white;
+}
+
+.schedule .inside_our_schedule2 .schedule_row1{
+    border-bottom: 2.5px solid gray;
+    width: 100%;
+    height: 33.33333%;
+    position: relative;
+}
+.schedule .inside_our_schedule2 .schedule_row2{
+    position: relative;
+    width: 100%;
+    height: 33.33333%;
+}
+
+.schedule_picture{
+    height:100px;
+    width:100px;
+    overflow:hidden;
+    position: relative;
+    top: 30%;
+    left: 5%;
+
+}
+.schedule_picture img{
+    max-width:100%;
+    max-height: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.schedule_text{
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.schedule_text .schedule_instructor{
+    display: inline-flex;
+    padding-top:10px;
+
+}
+.schedule_text h1{
+    padding-top: 7px;
+}
+.schedule_text .schedule_instructor a{
+    padding-left: 7px;
+    text-decoration: none;
+    color: blue;
+    
+}
+.schedule .inside_our_schedule3{
+    display: flex;
+    position: relative;
+    top: 20%;
+    background-color: black;
+    height: 40%;
+    width: 9%;
+    left: -25%;
+}
+.schedule .inside_our_schedule3 ul{
+    text-decoration: none;
+    position:relative;
+    top: 5%;
+    left: 20%;
+    list-style-type:none;
+    
+}
+
+.schedule .inside_our_schedule3 ul li{
+    padding-bottom: 20px;
+    
+}
+.schedule .inside_our_schedule3 ul li a{
+    text-decoration: none;
+    color: grey;
+    
+}
+.schedule .inside_our_schedule3 ul li a:hover{
+    color: white;
+}
+.schedule_button{
+    display: flex;
+    position: absolute;
+    top: 100%;
+    height: 20%;
+    width: 100%;
+    cursor: pointer;
+}
+.schedule_button .btn1{
+    align-items: center;
+    width: 100%;
+    padding:0 113px 0 113px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(62, 23, 235);
+    color: white;
+    box-shadow: inset 227px 0 0 0 rgb(62, 23, 235);
+    justify-content: center;
+    
+
+}
+.gallery{
+    display: inline-block;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top:350px;
+    background-color: rgb(248, 246, 246);
+    
+}
+.gallery_img{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallery_img div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.gallery_img img{
+    width: 100%;
+}

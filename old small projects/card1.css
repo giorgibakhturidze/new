@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    width: 300px;;
+    border-radius: 10px;
+    box-shadow: 8px 9px 21px #cccccc8f;
+    margin: 100px 9%;
+    float: left;
+
+    
+
+}
+.box img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 400px;
+}
+h1, h2, p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 10px;
+}
+.box h1{
+    text-align: center;
+    color: black;
+}
+.box h2{
+    text-align: center;
+    color: chocolate;
+    
+}
+#forhref{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    border: hidden;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    width: 100px;
+    text-decoration: none;
+    margin: 10px 100px;
+    
+
+}
+.box1{
+    border: solid #f8f5f5;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 8px 9px 21px #cccccc8f;
+    margin: 100px 9%;
+    float: left;
+    /*ver gavakeTe kvadrati*/
+}
+.box1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 35%;
+    border:2px solid #a4a1a1;
+    padding:5px;
+}
+.box1 h1 p {
+    text-align: center;
+    display: inline-block;
+
+}
+
+#middle_color{
+    background-color: brown;
+}
+
+.last_picture{
+    width: 100%;
+    background-color: black;
+
+}
+.last_picture img {
+    width: 50%;
+    margin: 0% 0% 0% 15%;
+}
+#center{
+    text-align: center;
+}
