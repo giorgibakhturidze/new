@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+#nav_ul{
+    padding-left: 70px;
+}
+#easy{
+    padding-left: 50px;
+    color: white;
+}
+@media only screen and (max-width: 991px){
+    #nav_ul{
+        padding-left: 0px;
+    }
+    #easy{
+        padding-left: 0px;
+    }
+}
+.ul_modification li {
+    font-size: 20px;
+    
+}
+.ul_modification li a{
+    color: white;  
+}
+
+.ul_modification li a:hover{
+    color: tomato;
+    
+}
+.ul_modification li a:focus{
+    color: tomato;
+    
+}
+.btn1{
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: white;
+    border-color: white;
+}

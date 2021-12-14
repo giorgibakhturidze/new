@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: BGPBOLD;
+    src: url(./fonts/bpg_nino_mtavruli_normal.ttf);
+}
+@font-face {
+    font-family: BGPARIAL;
+    src: url(./fonts/bpg_arial_2009.ttf)
+}
+
+
+
+.carousel-item{
+    height: 730px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b_img{
+    background-image: url(./Layer\ 3.png);
+}
+.subnav{
+    z-index: 1;
+    background-color: #40404091;
+}
+
+a{
+    text-decoration: none;
+}
+.subnav a{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'BGPBOLD';
+    display: inline-block;
+    padding: 12px 0 7px 0;
+}
+.menu a{
+    margin-left: 25px;
+}
+.navbar{
+    z-index: 2;
+    top: 43px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.nav-item{
+    color: #6b6b6b;
+    font-size: 17px;
+    font-family: 'BGPBOLD';
+
+}
+.nav-item:first-child .nav-link img{
+    position: relative;
+    bottom: 8px;
+    margin-right: 3px;
+}
+
+
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1124px;
+}
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 17px;
+        padding-bottom: 9px;
+    }
+}
+
+.carousel-control-prev-icon{
+    background-image: url(./img/marcxena.png);
+    height: 68px;
+    width: 34px;
+}
+.carousel-control-next-icon {
+    background-image: url(./img/marjvena.png);
+    height: 68px;
+    width: 34px;
+}
+.teqsti{
+    position: relative;
+    width: 700px;
+    top: -24.375rem;
+    left: -13.25rem;
+    
+    
+}
+.teqsti h2{
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "BGPBOLD";
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.teqsti p{
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: "BGPARIAL";
+    padding-bottom: 37px;
+    
+    
+    
+}
+.teqsti button{
+    padding: 15px 36px 9px 36px ;
+    background-color: e23848;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: BGPBOLD;
+    background-color: #e23848;
+    border: none;
+    letter-spacing: 1px;
+    
+}
+.box_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    position: relative;
+    top: -215px;
+    width: 100%;
+    height: auto;
+
+
+}
+.box img{
+    width: 207px;
+    height: 108px;
+    background-color: #ffffff;
+    border: 1px solid #d2d2d2;
+    padding: 13px;
+    
+    max-width: 100%;
+    
+}
+
+
+
+@media (max-width: 1199px){
+    .teqsti{
+        left:-132px;
+        overflow-wrap: break-word
+        
+}
+}
+@media (max-width: 991px){
+    .teqsti{
+        inline-size: 405px;
+        left:-148px;
+        overflow-wrap: break-word
+}
+}
+@media (max-width: 767px){
+    .teqsti{
+        inline-size: 300px;
+        left:0px;
+        overflow-wrap: break-word
+}
+.teqsti p{
+    padding-bottom: 0px;
+}
+}
+
