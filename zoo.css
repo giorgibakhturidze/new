@@ -17,10 +17,10 @@
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url(./img/Layer\ 3.png);
 }
-.b_img{
-    background-image: url(./Layer\ 3.png);
-}
+
+
 .subnav{
     z-index: 1;
     background-color: #40404091;
