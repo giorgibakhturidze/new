@@ -66,7 +66,8 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 152px;
+    padding-top: 76px;
+    padding-bottom: 76px;
 }
 
 .bg_under_nav{
