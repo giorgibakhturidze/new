@@ -2,24 +2,15 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background: #e84118;
-}
 .search_box{
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    border-radius: 40px;
-    height: 40px;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    z-index: 1;
+
 }
 
 .search_box:hover > .search_txt{
     width: 240px;
+    background-color: #2f3640;
+    
 
 }
 
