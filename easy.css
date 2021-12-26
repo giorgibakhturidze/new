@@ -413,6 +413,7 @@ ol, ul {
 }
 .under_footer{
     background-color: black;
+    position: relative;
 }
 .under_footer div a{
     padding-top:67px;
@@ -420,7 +421,7 @@ ol, ul {
 .under_footer_padding{
     padding: 67px 0 67px 0;
 }
-.under_footer_padding span{
+.under_footer_padding p{
     color: gray;
 }
 .under_footer_padding a{
@@ -614,5 +615,15 @@ ol, ul {
         font-size: 47px;
         line-height: 50px;
         
+    }
+}
+@media(max-width:767px){
+    .under_footer_padding{
+        display: block!important;
+    }
+    .under_footer_padding div:nth-child(2){
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
