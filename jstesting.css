@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #9603a9;
+}
+section{
+    background-color: #9603a9;  
+}
+
+.card1{
+    padding: 5px 0;
+    position:absolute;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #24203b;
+    text-align: center;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 30%;
+    
+   
+}
+
+.text{
+    color: #a7a3bf;
+    font-size: 18px;
+}
+.textrah{
+    color: #a7a3bf;
+    font-size: 22px;
+}
+#pro{
+    position: absolute;
+    background-color: #ffbd13;
+    width: fit-content;
+    padding: 6px 12px ;
+    top: 1px;
+    left: 30px;
+    border-radius: 5px;
+}
+#img-person{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #9603a9 ;
+    padding: 10px;
+    margin-top: 15px;
+}
+#message{
+    text-decoration: none;
+    background-color: #24203b;
+    border: 2px solid #9603a9;
+    color: #9603a9 ;
+    padding: 10px 14px;
+    transition: all 0.6s ease;
+    border-radius: 5px;
+}
+#message:hover{
+    background-color: #9603a9;
+    color: white;
+}
+#message2{
+    text-decoration: none;
+    background-color: #24203b;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    transition: all 0.6s ease;
+}
+#message2:hover{
+    background-color: #9603a9;
+    color: white;
+}
+.skill{
+    color: #a7a3bf;
+    text-align: left;
+    padding-left: 14px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+    
+}
+
+.uix{
+    border: 2px solid #393169f5;
+    color: #a7a3bf;
+    margin-left: 30px;
+    padding: 5px 5px;
+}
