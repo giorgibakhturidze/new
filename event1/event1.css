@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.dimension1{
+    margin-top: 10%;
+}
+.konteiner{
+    background-color: rgb(57, 61, 93);
+    height: 40vh;
+    width: 50%;
+    overflow: hidden;
+    
+}
+.slide{
+    border: 1px solid chocolate;
+    width: 25%;
+    height: 100%;
+    background-color: chocolate;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+    
+    
+    
+}
+.first{
+    margin-top:110px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.for_slide{
+    position: relative;
+    left: -60px;
+    top: 10px;
+
+}
+.slide-back{
+    transform: translateX(0);
+}
