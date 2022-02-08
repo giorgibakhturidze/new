@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    border: 1px solid black;
+    width: 30%;
+    height: 300px;
+    margin: 200px auto auto;
+    
+}
+.box1{
+    border: 1px solid white;
+    width: 90%;
+    height: 260px;
+    margin: auto;
+    margin-top: 20px;
+}
+.dot {
+    top: 50%;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+.box2{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    
+}
+.dot1{
+    background-color: rgb(192, 135, 11);
+}
+.dot2{
+    background-color: rgb(192, 32, 11);
+    
+}
+.dot3{
+    background-color: rgb(25, 160, 54);
+}
+.dot4{
+    background-color: rgb(80, 6, 141);
+}
+.citeli1{
+    background-color: red;
+}
