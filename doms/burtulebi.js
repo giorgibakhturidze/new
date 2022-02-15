@@ -1,16 +1,17 @@
-let kavisferi = document.querySelector(".dot1");
-let citeli = document.querySelector(".dot2");
-let mcvane = document.querySelector(".dot3");
-let iasamnisferi = document.querySelector(".dot4");
+// colortype.innerText = activecolor.getAttribute('data-colorname');
 
-kavisferi.addEventListener('click', function(){
-    let box1 = document.querySelector('.box1');
+// let colors = document.querySelectorAll('dot');
 
-    box1.style.background = document.querySelector(".dot1");
-})
+// colors.forEach(el=>{
+//     el.addEventListener('click', function(){
+//         let color = this.getAttribute('data-color')
 
-citeli.addEventListener('click', function(){
-    let box1 = document.querySelector('.box1');
+//         document.body.style.backgroundColor = color
+//     })
+// })
 
-    box1.classList.add = document.querySelector('.citeli1');
+let color = this.getAttribute('data-color')
+
+$('dot1').click(function(e){
+    $(this).body.style.backgroundColor = color
 })

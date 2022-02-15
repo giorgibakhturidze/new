@@ -1,0 +1,17 @@
+.move{
+    height: 720px;
+    width: 100%;
+    background-color: green;
+}
+h3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+button{
+    position: relative;
+    top: 20px;
+    left: 50%;
+}
